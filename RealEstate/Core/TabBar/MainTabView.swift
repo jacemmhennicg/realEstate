@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainTabView: View {@State private var activeTab: Tab = .explore
+struct MainTabView: {@State private var activeTab: Tab = .explore
     
     @Namespace private var animation
     @State private var tabShapePosition: CGPoint = .zero
