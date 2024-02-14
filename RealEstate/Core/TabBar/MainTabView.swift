@@ -1,17 +1,10 @@
-//
-//  MainTabView.swift
-//  RealEstate
-//
-//  Created by Coding GOAT on 12/2/2024.
-//
-
 import SwiftUI
 
-struct MainTabView: View {@State private var activeTab: Tab = .explore
-    
+struct MainTabView: View {
     @Namespace private var animation
+    @State private var activeTab: Tab = .explore
     @State private var tabShapePosition: CGPoint = .zero
-    
+
     init() {
         UITabBar.appearance().isHidden = true
     }
@@ -20,19 +13,11 @@ struct MainTabView: View {@State private var activeTab: Tab = .explore
             TabView(selection: $activeTab){
                 ExploreView()
                     .tag(Tab.explore)
-                //.toolbar(.hidden, for: .tabBar)
-                
                 WishlistsView()
                     .tag(Tab.wishlists)
-                // .toolbar(.hidden, for: .tabBar)
-                
                ProfileView()
                     .tag(Tab.profile)
-                //  .toolbar(.hidden, for: .tabBar)
-                
-                
             }
-            
             CustomTabBar()
         }
     }
