@@ -33,6 +33,10 @@ jobs:
 
       - name: Install Fastlane
         run: gem install fastlane
+        continue-on-error: true
+        
+      - name: Install gems
+        run: bundle install
 
       - name: Swift Packages Cache
         uses: actions/cache@v2
