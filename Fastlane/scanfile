@@ -4,7 +4,7 @@
 workspace "RealEstate.xcodeproj/project.xcworkspace"
 scheme "RealEstate"
 sdk "iphonesimulator"
-device "iPhone 15"
+device "iPhone 11"
 code_coverage true
 xcargs '-parallelizeTargets'
 prelaunch_simulator true
