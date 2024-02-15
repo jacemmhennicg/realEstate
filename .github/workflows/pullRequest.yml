@@ -57,7 +57,7 @@ jobs:
         run: bundle exec fastlane unit_test skip_package_dependencies_resolution:true`
 
       - name: Notify Slack
-        uses: slack/send-message@v2
+        uses: docker://ghcr.io/slackapi/send-message-action:v2
         with:
           channel: C06JVBJ7HRT
           text: "Pull Request opened: ${{ github.event.pull_request.title }} by ${{ github.actor }}"
