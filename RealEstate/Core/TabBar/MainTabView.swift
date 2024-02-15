@@ -1,9 +1,3 @@
-//
-//  MainTabView.swift
-//  RealEstate
-//
-//  Created by Coding GOAT on 12/2/2024.
-//
 
 import SwiftUI
 
