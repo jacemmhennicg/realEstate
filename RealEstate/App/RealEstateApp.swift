@@ -1,9 +1,3 @@
-//
-//  RealEstateApp.swift
-//  RealEstate
-//
-//  Created by Coding GOAT on 25/1/2024.
-//
 
 import SwiftUI
 
