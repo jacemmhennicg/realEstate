@@ -55,12 +55,16 @@ jobs:
       - name: Run Tests (Cache)
         if: steps.setup.outputs.cache-hit == 'true'
         run: bundle exec fastlane unit_test skip_package_dependencies_resolution:true`
-
-      - name: Notify Slack
-        uses: docker://ghcr.io/slackapi/send-message-action:v2
-        with:
-          channel: C06JVBJ7HRT
-          text: "Pull Request opened: ${{ github.event.pull_request.title }} by ${{ github.actor }}"
-          username: GitHub Actions
-          icon_url: https://example.com/icon.png
-          color: good
+        
+      - name: Post to a Slack channel
+          id: C06JVBJ7HRT
+          uses: slackapi/slack-github-action@v1.25.0
+          with:
+          # Slack channel id, channel name, or user id to post message.
+          # See also: https://api.slack.com/methods/chat.postMessage#channels
+          # You can pass in multiple channels to post to by providing a comma-delimited list of channel IDs.
+          channel-id: 'CHANNEL_ID,ANOTHER_CHANNEL_ID'
+          # For posting a simple plain text message
+          slack-message: "GitHub build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+          env:
+            SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
