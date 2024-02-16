@@ -1,9 +1,3 @@
-//
-//  TestClass.swift
-//  RealEstateTests
-//
-//  Created by Coding GOAT on 16/2/2024.
-//
 
 import XCTest
 @testable import RealEstate
