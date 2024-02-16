@@ -21,6 +21,7 @@
 		872EFF3E2B7A67910010CCD3 /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF3D2B7A67910010CCD3 /* TabPosition.swift */; };
 		872EFF402B7A67990010CCD3 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF3F2B7A67990010CCD3 /* TabShape.swift */; };
 		872EFF482B7D09F50010CCD3 /* RealEstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF472B7D09F50010CCD3 /* RealEstateTests.swift */; };
+		872EFF4F2B7F5B0D0010CCD3 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF4E2B7F5B0D0010CCD3 /* TestClass.swift */; };
 		87C242B22B624EF400DA3087 /* RealEstateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C242B12B624EF400DA3087 /* RealEstateApp.swift */; };
 		87C242B42B624EF400DA3087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C242B32B624EF400DA3087 /* ContentView.swift */; };
 		87C242B62B624EF600DA3087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C242B52B624EF600DA3087 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		872EFF3F2B7A67990010CCD3 /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
 		872EFF452B7D09F50010CCD3 /* RealEstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		872EFF472B7D09F50010CCD3 /* RealEstateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateTests.swift; sourceTree = "<group>"; };
+		872EFF4E2B7F5B0D0010CCD3 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		87C242AE2B624EF400DA3087 /* RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C242B12B624EF400DA3087 /* RealEstateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateApp.swift; sourceTree = "<group>"; };
 		87C242B32B624EF400DA3087 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				872EFF472B7D09F50010CCD3 /* RealEstateTests.swift */,
+				872EFF4E2B7F5B0D0010CCD3 /* TestClass.swift */,
 			);
 			path = RealEstateTests;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872EFF4F2B7F5B0D0010CCD3 /* TestClass.swift in Sources */,
 				872EFF482B7D09F50010CCD3 /* RealEstateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
