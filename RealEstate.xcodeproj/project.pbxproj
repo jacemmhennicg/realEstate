@@ -26,6 +26,7 @@
 		872EFF552B7FAC600010CCD3 /* DevelopperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF542B7FAC600010CCD3 /* DevelopperPreview.swift */; };
 		872EFF5A2B7FB7620010CCD3 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF592B7FB7620010CCD3 /* ExploreViewModel.swift */; };
 		872EFF5C2B7FB7E10010CCD3 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF5B2B7FB7E10010CCD3 /* ExploreService.swift */; };
+		872EFF5E2B83958E0010CCD3 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF5D2B83958E0010CCD3 /* Regions.swift */; };
 		87C242B22B624EF400DA3087 /* RealEstateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C242B12B624EF400DA3087 /* RealEstateApp.swift */; };
 		87C242B42B624EF400DA3087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C242B32B624EF400DA3087 /* ContentView.swift */; };
 		87C242B62B624EF600DA3087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C242B52B624EF600DA3087 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		872EFF542B7FAC600010CCD3 /* DevelopperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopperPreview.swift; sourceTree = "<group>"; };
 		872EFF592B7FB7620010CCD3 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		872EFF5B2B7FB7E10010CCD3 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		872EFF5D2B83958E0010CCD3 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 		87C242AE2B624EF400DA3087 /* RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C242B12B624EF400DA3087 /* RealEstateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateApp.swift; sourceTree = "<group>"; };
 		87C242B32B624EF400DA3087 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				872EFF542B7FAC600010CCD3 /* DevelopperPreview.swift */,
+				872EFF5D2B83958E0010CCD3 /* Regions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				872EFF5C2B7FB7E10010CCD3 /* ExploreService.swift in Sources */,
 				872EFF342B7A52A40010CCD3 /* ProfileView.swift in Sources */,
 				872EFF362B7A60610010CCD3 /* ProfileOptionRowView.swift in Sources */,
+				872EFF5E2B83958E0010CCD3 /* Regions.swift in Sources */,
 				872EFF5A2B7FB7620010CCD3 /* ExploreViewModel.swift in Sources */,
 				872EFF322B7672370010CCD3 /* DestinationSearchView.swift in Sources */,
 				872EFF292B727A0F0010CCD3 /* ListingItemView.swift in Sources */,
