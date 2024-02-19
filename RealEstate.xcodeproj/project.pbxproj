@@ -24,6 +24,8 @@
 		872EFF4F2B7F5B0D0010CCD3 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF4E2B7F5B0D0010CCD3 /* TestClass.swift */; };
 		872EFF532B7FA03E0010CCD3 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF522B7FA03E0010CCD3 /* Listing.swift */; };
 		872EFF552B7FAC600010CCD3 /* DevelopperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF542B7FAC600010CCD3 /* DevelopperPreview.swift */; };
+		872EFF5A2B7FB7620010CCD3 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF592B7FB7620010CCD3 /* ExploreViewModel.swift */; };
+		872EFF5C2B7FB7E10010CCD3 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EFF5B2B7FB7E10010CCD3 /* ExploreService.swift */; };
 		87C242B22B624EF400DA3087 /* RealEstateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C242B12B624EF400DA3087 /* RealEstateApp.swift */; };
 		87C242B42B624EF400DA3087 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C242B32B624EF400DA3087 /* ContentView.swift */; };
 		87C242B62B624EF600DA3087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C242B52B624EF600DA3087 /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 		872EFF4E2B7F5B0D0010CCD3 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		872EFF522B7FA03E0010CCD3 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		872EFF542B7FAC600010CCD3 /* DevelopperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopperPreview.swift; sourceTree = "<group>"; };
+		872EFF592B7FB7620010CCD3 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		872EFF5B2B7FB7E10010CCD3 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 		87C242AE2B624EF400DA3087 /* RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C242B12B624EF400DA3087 /* RealEstateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateApp.swift; sourceTree = "<group>"; };
 		87C242B32B624EF400DA3087 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,9 +187,9 @@
 		872EFF252B726DBC0010CCD3 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				872EFF262B7270CC0010CCD3 /* ExploreView.swift */,
-				872EFF2A2B7623CE0010CCD3 /* SearchAndFilterBar.swift */,
-				872EFF312B7672370010CCD3 /* DestinationSearchView.swift */,
+				872EFF582B7FB7320010CCD3 /* Servive */,
+				872EFF572B7FB72A0010CCD3 /* View */,
+				872EFF562B7FB7020010CCD3 /* ViewModel */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -222,6 +226,32 @@
 				872EFF522B7FA03E0010CCD3 /* Listing.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		872EFF562B7FB7020010CCD3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				872EFF592B7FB7620010CCD3 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		872EFF572B7FB72A0010CCD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				872EFF262B7270CC0010CCD3 /* ExploreView.swift */,
+				872EFF2A2B7623CE0010CCD3 /* SearchAndFilterBar.swift */,
+				872EFF312B7672370010CCD3 /* DestinationSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		872EFF582B7FB7320010CCD3 /* Servive */ = {
+			isa = PBXGroup;
+			children = (
+				872EFF5B2B7FB7E10010CCD3 /* ExploreService.swift */,
+			);
+			path = Servive;
 			sourceTree = "<group>";
 		};
 		87C242A52B624EF400DA3087 = {
@@ -378,8 +408,10 @@
 				872EFF302B76365C0010CCD3 /* ListingDetailView.swift in Sources */,
 				872EFF532B7FA03E0010CCD3 /* Listing.swift in Sources */,
 				872EFF552B7FAC600010CCD3 /* DevelopperPreview.swift in Sources */,
+				872EFF5C2B7FB7E10010CCD3 /* ExploreService.swift in Sources */,
 				872EFF342B7A52A40010CCD3 /* ProfileView.swift in Sources */,
 				872EFF362B7A60610010CCD3 /* ProfileOptionRowView.swift in Sources */,
+				872EFF5A2B7FB7620010CCD3 /* ExploreViewModel.swift in Sources */,
 				872EFF322B7672370010CCD3 /* DestinationSearchView.swift in Sources */,
 				872EFF292B727A0F0010CCD3 /* ListingItemView.swift in Sources */,
 				87C242B42B624EF400DA3087 /* ContentView.swift in Sources */,
