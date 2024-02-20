@@ -29,6 +29,7 @@ struct ListingDetailView: View {
                 ListingImageCarouselView(listing: listing)
                     .frame(height: 320)
                 Button {
+                    print("back")
                     dismiss()
                 } label: {
                     Image(systemName: "chevron.left")
@@ -193,7 +194,7 @@ struct ListingDetailView: View {
                     }
                     Spacer()
                     Button {
-                        
+                        dismiss()
                     } label: {
                         Text("Reserve")
                             .foregroundStyle(.white)
